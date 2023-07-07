@@ -1,7 +1,7 @@
 
 # Notes `markdoc` - md -> sthlp
 
-The `.stlhp` file [markdown-source.sthlp](./markdown-source.sthlp) is generated from the file [markdown-source-markdoc.md](../../source-files/markdown/markdown-source-markdoc.md) using `markdoc` specified like this:
+The `.stlhp` file [markdown-source-markdoc.sthlp](./markdown-source-markdoc.sthlp) is generated from the file [markdown-source-markdoc.md](../../source-files/markdown/markdown-source-markdoc.md) using `markdoc` specified like this:
 
 ```
 markdoc "${src_md}/markdown-source-markdoc.md", mini export(sthlp) replace

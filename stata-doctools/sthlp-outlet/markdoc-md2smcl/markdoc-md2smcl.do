@@ -6,11 +6,11 @@
     * it will always save in the same file as the source file. 
     * Copy stlhp file to output folder for this experiment,
     * and then delete the file where markdoc wrote it
-    copy "${src_md}/markdown-source.sthlp" "${hlp_mkd_mdsmcl}/markdown-source.sthlp", replace
-    rm   "${src_md}/markdown-source.sthlp"
+    copy "${src_md}/markdown-source-markdoc.sthlp" "${hlp_mkd_mdsmcl}/markdown-source-markdoc.sthlp", replace
+    rm   "${src_md}/markdown-source-markdoc.sthlp"
     
     * Uncomment to open in viewer window automatia
-    //view "${hlp_mkd_mdsmcl}/markdown-source.sthlp"
+    view "${hlp_mkd_mdsmcl}/markdown-source-markdoc.sthlp"
     
     
     
