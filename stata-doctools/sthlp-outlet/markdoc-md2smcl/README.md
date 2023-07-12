@@ -16,6 +16,7 @@ See [markdoc-md2smcl.do](./markdoc-md2smcl.do) for the full code. To run this fi
 | `__ __`   | bold          | bold            |          |
 | `** **`   | underlined    | bold            | Used for syntax abbreviation. For example, `**opt**ion(_string_)` where `opt` will be rendered underlined in `.sthlp` but rendered bolded the same was as in `__ __` in Markdown |
 | `=======` | Title syntax. No indent, bold and underlined | Rendered as `#` level 1 heading | Great implementation |
+| `` ` ` `` | Shown as in source | Rendered as code | Would be great if this renderd to `{inp}` in the `.sthlp` file |
 
 ## Remarks
 
