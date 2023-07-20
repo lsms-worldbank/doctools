@@ -1,6 +1,8 @@
 
 /***
 
+_version 1.2.3_
+
 ---
 
 Documentation for **markdownado**
@@ -53,9 +55,8 @@ cap program drop   markdownado
 
     syntax, mdhlp(string) sthlp(string) [debug]
 
-    /***********************************************
-    Standardize slashes in file paths
-    ***********************************************/
+
+    *Standardize slashes in file paths
     local mdhlpstd	= subinstr(`"`mdhlp'"',"\","/",.)
     local sthlpstd	= subinstr(`"`sthlp'"',"\","/",.)
 

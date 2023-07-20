@@ -1,3 +1,5 @@
+_version 1.2.3_
+
 ---
 
 Documentation for **markdownado**
@@ -41,21 +43,6 @@ A couple of examples to help the user get started and a short explanation of eac
 
 **Authors**
 
-    Standardize slashes in file paths
-    ***********************************************/
-    local mdhlpstd      = subinstr(`"`mdhlp'"',"\","/",.)
-    local sthlpstd      = subinstr(`"`sthlp'"',"\","/",.)
-
-    if !missing("`debug'")  noi di "db mdhlp: `mdhlp'"
-    if !missing("`debug'")  noi di "db mdhlpstd: `mdhlpstd'"
-    if !missing("`debug'")  noi di "db sthlp: `sthlp'"
-    if !missing("`debug'")  noi di "db sthlpstd: `sthlpstd'"
-
-    split_file_extentsion, file("file.ado")
-
-end
-
-/***
 
 **Examples**
 
